@@ -54,14 +54,14 @@ can call following Endpoints by using POSTMAN
 ```
   http://localhost:8080/Formateurservice/Formateurs/<id>
 ```
-### 10.To update Book in database, use following url with `PUT` request type in postman
+### 10.To update   in database, use following url with `PUT` request type in postman
 ```
 	http://localhost:8080/Formateurservice/Formateurs/<id>
 ```
 ### set content type as in header as `application/json`
 ### set request body as raw with JSON payload
  
-### 11.To delete a particular Book from database, use following url with `DELETE` request type in postman
+### 11.To delete a particular   from database, use following url with `DELETE` request type in postman
 ```
   http://localhost:8080/Formateurservice/Formateurs/<id>
 ```
