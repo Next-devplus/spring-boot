@@ -1,6 +1,6 @@
-# E-learning-spring-boot
 
-# PFE-Spring-Boot 
+
+# CRUD-Spring-Boot 
 
 ### 1. You can clone it from github by running following command
  
@@ -39,7 +39,7 @@ logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
 ## Once Sprint Boot Application will be started successfully then we 
 can call following Endpoints by using POSTMAN
 
-### 7. To get list of books call following endpoint with GET Request
+### 7. To get list of formateur call following endpoint with GET Request
 ```
   http://localhost:8080/Formateurservice/Formateurs
 ```
@@ -50,7 +50,7 @@ can call following Endpoints by using POSTMAN
 ### set content type as in header as `application/json`
 ### set request body as raw with JSON payload
  
-### 9.To get a particular book, use following url with `GET` request type in postman
+### 9.To get a particular formateur, use following url with `GET` request type in postman
 ```
   http://localhost:8080/Formateurservice/Formateurs/<id>
 ```
